@@ -12,7 +12,7 @@
   <a href="https://facebook.com/naeemsensei">
   <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
 </a>
-  <a href="https://github.com/naeemsensei001"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/ShahriarNaeem"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"></a>
 </p>
 
 ---
