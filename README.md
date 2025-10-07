@@ -7,12 +7,21 @@
 <h3 align="center">Civil Engineer | Environmental & Transportation Systems Analyst | Enthusiast in AI, ML, and spatial data, translating research into impactful insights</h3>
 
 <p align="center">
-  <a href="mailto:srnpatwary7991.srnaeem@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail"></a>
-  <a href="https://linkedin.com/in/naeemsensei001"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://facebook.com/naeemsensei">
-  <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
-</a>
-  <a href="https://github.com/ShahriarNaeem"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"></a>
+  <a href="mailto:srnpatwary7991.srnaeem@gmail.com" title="srnpatwary7991.srnaeem@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+
+  <a href="https://linkedin.com/in/naeemsensei001" title="linkedin.com/in/naeemsensei001">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+
+  <a href="https://facebook.com/naeemsensei" title="facebook.com/naeemsensei">
+    <img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+
+  <a href="https://github.com/ShahriarNaeem" title="github.com/ShahriarNaeem">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
 </p>
 
 ---
