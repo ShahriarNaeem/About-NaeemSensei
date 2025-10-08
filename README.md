@@ -85,8 +85,8 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ### 📊 Data Analysis, Plotting & Statistical Tools
-![IBM SPSS](https://img.shields.io/badge/IBM%20SPSS-052FAD?style=flat&logo=ibm&logoColor=white)
-![OriginPro](https://img.shields.io/badge/OriginPro-FF6600?style=flat&logoColor=white)
+[![IBM SPSS](https://img.shields.io/badge/IBM%20SPSS-052FAD?style=flat&logo=ibm&logoColor=white)](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
+[![OriginPro](https://img.shields.io/badge/OriginPro-FF6600?style=flat&logoColor=white)](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
 
 ### 🌎 GIS & Remote Sensing Tools
 ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-007ACC?style=flat&logo=esri&logoColor=white)
