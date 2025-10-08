@@ -100,9 +100,9 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ### 📊 Visualization & Analytics  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)
-![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)
-![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
 
 ### 🌐 GIS & Remote Sensing  
