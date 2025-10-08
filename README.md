@@ -71,12 +71,12 @@
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
-[![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)]([https://github.com/yourusername/python-project](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
+[![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/AI-Traffic-Flow-Prediction)
 
 ### 🧠 Development Environments  
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
