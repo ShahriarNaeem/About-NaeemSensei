@@ -1,7 +1,7 @@
 # About-NaeemSensei
 <!-- Profile Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ecc71,100:27ae60&height=200&section=header&text=Md%20Shahriar%20Rahman%20Naeem%20Patwary&fontSize=30&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:003399&height=200&section=header&text=Md%20Shahriar%20Rahman%20Naeem%20Patwary&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <h3 align="center">Civil Engineer | Environmental & Transportation Systems Analyst | Enthusiast in AI, ML, and spatial data, translating research into impactful insights</h3>
@@ -162,5 +162,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shahriarnaeem&show_icons=true&locale=en" alt="shahriarnaeem" /></p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:27ae60,100:2ecc71&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:003399&height=100&section=footer"/>
 </p>
