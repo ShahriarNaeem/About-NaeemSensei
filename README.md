@@ -30,7 +30,7 @@
 🔹 Passionate about integrating **civil engineering, data analytics, and sustainability**.  
 🔹 Currently working on **Bangladesh’s first Metro Rail Project (DMRT Line-6)** as a QS Engineer.  
 🔹 Skilled in **BIM, Python, GIS, and predictive modeling** for sustainable urban planning.  
-🔹 Dedicated to bridging the gap between **engineering and data science** to shape resilient cities.  
+🔹 Dedicated to bridging the gap between **Engineering and Data Science** to shape resilient cities.  
 
 > “We won’t have a society if we destroy the environment.” – *Margaret Mead*  
 
@@ -111,16 +111,16 @@
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=flat&logo=googleearth)
 
 ### 🏗️ BIM, Design and measurement Tools  
-![AutoCAD](https://img.shields.io/badge/AutoCAD-E51050?style=flat&logo=autodesk)
-![Revit](https://img.shields.io/badge/Revit-007ACC?style=flat&logo=autodesk)
-![Navisworks](https://img.shields.io/badge/Navisworks-00B140?style=flat)
-![Autodesk ReCap](https://img.shields.io/badge/Autodesk%20ReCap-00ADEF?style=flat&logo=autodesk&logoColor=white)
+[![AutoCAD](https://img.shields.io/badge/AutoCAD-E51050?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
+[![Revit](https://img.shields.io/badge/Revit-007ACC?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
+[![Navisworks](https://img.shields.io/badge/Navisworks-00B140?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
+[![Autodesk ReCap](https://img.shields.io/badge/Autodesk%20ReCap-00ADEF?style=flat&logo=autodesk&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
 ![Geo5](https://img.shields.io/badge/Geo5-0A4D91?style=flat&logoColor=white)
-![Tekla](https://img.shields.io/badge/Tekla%20Structures-003865?style=flat)
-![ETABS](https://img.shields.io/badge/ETABS-005F9E?style=flat)
-![SAFE](https://img.shields.io/badge/SAFE-008891?style=flat)
-![SketchUp](https://img.shields.io/badge/SketchUp-005F9E?style=flat&logo=sketchup&logoColor=white)
-![Lumion](https://img.shields.io/badge/Lumion-0A9EDC?style=flat&logoColor=white)
+[![Tekla](https://img.shields.io/badge/Tekla%20Structures-003865?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/Tekla/FABRICATION%20DRAWING%20OF%20CHIMNEY%20STRUCTURE)
+[![ETABS](https://img.shields.io/badge/ETABS-005F9E?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/ETABS)
+[![SAFE](https://img.shields.io/badge/SAFE-008891?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/SAFE)
+[![SketchUp](https://img.shields.io/badge/SketchUp-005F9E?style=flat&logo=sketchup&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Sketchup%20%26%20Lumion/7-9SR)
+[![Lumion](https://img.shields.io/badge/Lumion-0A9EDC?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Sketchup%20%26%20Lumion/7-9SR)
 ![PlanSwift](https://img.shields.io/badge/PlanSwift-0078D7?style=flat&logoColor=white)
 
 ### 🗂️ Project & Contract Management  
