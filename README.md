@@ -29,7 +29,7 @@
 ## 🌍 About Me  
 🔹 Passionate about integrating **civil engineering, data analytics, and sustainability**.  
 🔹 Currently working on **Bangladesh’s first Metro Rail Project (DMRT Line-6)** as a QS Engineer.  
-🔹 Skilled in **BIM, Python, GIS, and predictive modeling** for sustainable urban planning.  
+🔹 Skilled in **[BIM](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT), [Python](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML), GIS, and [predictive modeling](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)** for sustainable urban planning.  
 🔹 Dedicated to bridging the gap between **Engineering and Data Science** to shape resilient cities.  
 
 > “We won’t have a society if we destroy the environment.” – *Margaret Mead*  
