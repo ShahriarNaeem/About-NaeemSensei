@@ -70,13 +70,13 @@
 ### 💻 Programming, Data Analysis & Visualization  
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 
 ### 🧠 Development Environments  
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
@@ -85,8 +85,8 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ### 📊 Data Analysis, Plotting & Statistical Tools
-[![IBM SPSS](https://img.shields.io/badge/IBM%20SPSS-052FAD?style=flat&logo=ibm&logoColor=white)](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
-[![OriginPro](https://img.shields.io/badge/OriginPro-FF6600?style=flat&logoColor=white)](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
+[![IBM SPSS](https://img.shields.io/badge/IBM%20SPSS-052FAD?style=flat&logo=ibm&logoColor=white)](https://www.civilengineeringjournals.com/ijrcet/article/68/5-2-4-555.pdf)
+[![OriginPro](https://img.shields.io/badge/OriginPro-FF6600?style=flat&logoColor=white)](https://www.civilengineeringjournals.com/ijrcet/article/68/5-2-4-555.pdf)
 
 ### 🌎 GIS & Remote Sensing Tools
 ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-007ACC?style=flat&logo=esri&logoColor=white)
@@ -100,9 +100,9 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ### 📊 Visualization & Analytics  
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
 
 ### 🌐 GIS & Remote Sensing  
@@ -111,16 +111,16 @@
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=flat&logo=googleearth)
 
 ### 🏗️ BIM, Design and measurement Tools  
-[![AutoCAD](https://img.shields.io/badge/AutoCAD-E51050?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
-[![Revit](https://img.shields.io/badge/Revit-007ACC?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
-[![Navisworks](https://img.shields.io/badge/Navisworks-00B140?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
-[![Autodesk ReCap](https://img.shields.io/badge/Autodesk%20ReCap-00ADEF?style=flat&logo=autodesk&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/REVIT)
+[![AutoCAD](https://img.shields.io/badge/AutoCAD-E51050?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT)
+[![Revit](https://img.shields.io/badge/Revit-007ACC?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT)
+[![Navisworks](https://img.shields.io/badge/Navisworks-00B140?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT)
+[![Autodesk ReCap](https://img.shields.io/badge/Autodesk%20ReCap-00ADEF?style=flat&logo=autodesk&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT)
 ![Geo5](https://img.shields.io/badge/Geo5-0A4D91?style=flat&logoColor=white)
-[![Tekla](https://img.shields.io/badge/Tekla%20Structures-003865?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/Tekla/FABRICATION%20DRAWING%20OF%20CHIMNEY%20STRUCTURE)
-[![ETABS](https://img.shields.io/badge/ETABS-005F9E?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/ETABS)
-[![SAFE](https://img.shields.io/badge/SAFE-008891?style=flat)](https://github.com/ShahriarNaeem/My-projects/tree/main/SAFE)
-[![SketchUp](https://img.shields.io/badge/SketchUp-005F9E?style=flat&logo=sketchup&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Sketchup%20%26%20Lumion/7-9SR)
-[![Lumion](https://img.shields.io/badge/Lumion-0A9EDC?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Sketchup%20%26%20Lumion/7-9SR)
+[![Tekla](https://img.shields.io/badge/Tekla%20Structures-003865?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Tekla/FABRICATION%20DRAWING%20OF%20CHIMNEY%20STRUCTURE)
+[![ETABS](https://img.shields.io/badge/ETABS-005F9E?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/ETABS)
+[![SAFE](https://img.shields.io/badge/SAFE-008891?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/SAFE)
+[![SketchUp](https://img.shields.io/badge/SketchUp-005F9E?style=flat&logo=sketchup&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Sketchup%20%26%20Lumion/7-9SR)
+[![Lumion](https://img.shields.io/badge/Lumion-0A9EDC?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Sketchup%20%26%20Lumion/7-9SR)
 ![PlanSwift](https://img.shields.io/badge/PlanSwift-0078D7?style=flat&logoColor=white)
 
 ### 🗂️ Project & Contract Management  
