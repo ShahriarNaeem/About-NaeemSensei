@@ -69,7 +69,7 @@
 
 ### 💻 Programming, Data Analysis & Visualization  
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-projects/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
