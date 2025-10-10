@@ -166,7 +166,9 @@
 - 🧠 Philosophical Exploration — Deep thinking about cosmology, the universe, singularity, and the concept of God
 - 🧘 Mindfulness — Meditation for clarity, discipline and Gratification    
 - 🎶 Music — Helps me focus and recharge   
-- 🚗 Driving — Long drives to relax and think 
+- 🚗 Driving — Long drives to relax and think
+
+---
 
 ## 📈 GitHub Stats  
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shahriarnaeem&show_icons=true&locale=en" alt="shahriarnaeem" /></p>
