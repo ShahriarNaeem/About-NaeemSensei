@@ -145,6 +145,20 @@
 
 ---
 
+## 🧭 My Portfolio
+
+Here are some of my selected projects and professional works — reflecting my multidisciplinary experience across **Geospatial Analysis**, **Machine Learning**, **BIM Technology**, and **Structural Engineering**.
+
+| Project | Description | Link |
+|----------|--------------|------|
+| 🛰️ **Geospatial NO₂ Analysis** | A comprehensive study on air quality and atmospheric NO₂ concentration using **Google Earth Engine**, **Sentinel-5 satellite data**, **Ground NO2 data** and **ArcGIS Pro** integrated with **Python automation**. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Geo-Spatial%20Analysis/Dhaka_NO2_Project) |
+| 🚦 **Traffic & Accident Behaviour Modelling** | Developed predictive models using **Python** and **Machine Learning algorithms** (Linear Regression, Random Forest, XGBoost) to analyse traffic patterns and accident behaviour, alongside an interactive app prototype. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction) |
+| 🏗️ **BIM-Based Project Solutions** | Delivered several projects utilising **Building Information Modelling (BIM)** with **Autodesk Revit**, focusing on 3D coordination, quantity take-off, and collaborative project planning. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT) |
+| 🧮 **Structural Design & Analysis** | Performed detailed structural design and analysis of multi-storey buildings using **ETABS** and **SAFE**, ensuring compliance with structural standards and optimised reinforcement design. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/ETABS) |
+| 🏛️ **Architectural & Structural Drafting** | Created precise **architectural and structural drawings** using **Revit**, **AutoCAD**, **Tekla**, **SketchUp**, and **Lumion** for visualisation and presentation purposes. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Tekla/FABRICATION%20DRAWING%20OF%20CHIMNEY%20STRUCTURE) |
+
+🔗 **See all my projects here:** [Portfolio Repository →]([https://github.com/ShahriarNaeem?tab=repositories](https://github.com/ShahriarNaeem/My-Portfolio))
+
 ## 🌱 Current Focus  
 - Building AI-based models for **transportation network & cost forecasting**  
 - Exploring **geospatial data science** for sustainable development  
