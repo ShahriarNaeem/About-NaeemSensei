@@ -174,7 +174,7 @@ Here are some of my selected projects and professional works — reflecting my m
 - 🧠 Philosophical Exploration — Deep thinking about cosmology, the universe, singularity, and the concept of God
 - 🧘 Mindfulness — Meditation for clarity, discipline and Gratification    
 - 🎶 Music — Helps me focus and recharge
-- 🧩 Solving Rubik’s Cube   
+- 🧩 Solving Rubik’s Cube — Challenging my mind against the clock
 - 🚗 Driving — Long drives to relax and think
 
 ---
