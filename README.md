@@ -72,11 +72,14 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
 [![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+
+### 📊 Visualization & Analytics  
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
 
 ### 🧠 Development Environments  
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
@@ -89,8 +92,10 @@
 [![OriginPro](https://img.shields.io/badge/OriginPro-FF6600?style=flat&logoColor=white)](https://www.civilengineeringjournals.com/ijrcet/article/68/5-2-4-555.pdf)
 
 ### 🌎 GIS & Remote Sensing Tools
-![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-007ACC?style=flat&logo=esri&logoColor=white)
+[![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-007ACC?style=flat&logo=esri&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Geo-Spatial%20Analysis/Dhaka_NO2_Project)
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis)
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=flat&logo=googleearth&logoColor=white)
+![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-34A853?style=flat&logo=googleearthengine&logoColor=white)
 ![SAS Planet](https://img.shields.io/badge/SAS%20Planet-1C75BC?style=flat&logoColor=white)
 
 ### 🌐 Web & Version Control
@@ -98,17 +103,6 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/CSS)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-### 📊 Visualization & Analytics  
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-004B87?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Seaborn](https://img.shields.io/badge/Seaborn-3B8BBE?style=flat)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-[![Plotly](https://img.shields.io/badge/Plotly-239120?style=flat&logo=plotly)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML/AI-Traffic-Flow-Prediction)
-![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi)
-
-### 🌐 GIS & Remote Sensing  
-![ArcGIS](https://img.shields.io/badge/ArcGIS-007ACC?style=flat)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis)
-![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=flat&logo=googleearth)
 
 ### 🏗️ BIM, Design and measurement Tools  
 [![AutoCAD](https://img.shields.io/badge/AutoCAD-E51050?style=flat&logo=autodesk)](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT)
