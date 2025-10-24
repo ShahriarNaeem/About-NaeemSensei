@@ -157,7 +157,7 @@ Here are some of my selected projects and professional works — reflecting my m
 | 🧮 **Structural Design & Analysis** | Performed detailed structural design and analysis of multi-storey buildings using **ETABS** and **SAFE**, ensuring compliance with structural standards and optimised reinforcement design. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/ETABS) |
 | 🏛️ **Architectural & Structural Drafting** | Created precise **architectural and structural drawings** using **Revit**, **AutoCAD**, **Tekla**, **SketchUp**, and **Lumion** for visualisation and presentation purposes. | [View Project](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Tekla/FABRICATION%20DRAWING%20OF%20CHIMNEY%20STRUCTURE) |
 
-🔗 **See all my projects here:** [Portfolio Repository →]((https://github.com/ShahriarNaeem/My-Portfolio)
+🔗 **See all my projects here:** [Portfolio Repository →](https://github.com/ShahriarNaeem/My-Portfolio)
 
 ## 🌱 Current Focus  
 - Building AI-based models for **transportation network & cost forecasting**  
