@@ -162,6 +162,8 @@ Here are some of my selected projects and professional works — reflecting my m
 
 🔗 **See all my projects here:** [Portfolio Repository →](https://github.com/ShahriarNaeem/My-Portfolio)
 
+---
+
 ## 🌱 Current Focus  
 - Building AI-based models for **transportation network & cost forecasting**  
 - Exploring **geospatial data science** for sustainable development  
