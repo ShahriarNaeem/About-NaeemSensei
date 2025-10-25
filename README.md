@@ -1,4 +1,5 @@
 <h1 align="center">👋 Hi there, and welcome to my GitHub space!</h1>
+<p align="center">Here’s a bit about me and what I love to build 🚀</p>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ShahriarNaeem.ShahriarNaeem" alt="visitor badge"/>
 
 <!-- Profile Banner -->
@@ -187,3 +188,4 @@ Here are some of my selected projects and professional works — reflecting my m
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:003399&height=100&section=footer"/>
 </p>
+<h3 align="center">🚀 Thanks for your time and interest — your visit means a lot!</h3>
