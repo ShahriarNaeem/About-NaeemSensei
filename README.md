@@ -59,8 +59,8 @@
 - Price adjustment, Cashflow, Subcontractor billing, and progress reporting  
 
 ### 🧱 Structural Engineer | *Innovate Engineering & Development (IED)*  
-- Structural analysis using **ETABS**, **SAFE**, **Tekla**  
-- Foundation design and load estimation using **Geo5**  
+- Structural analysis using **ETABS**, **Tekla**  
+- Foundation design by **SAFE** and load estimation using **Geo5**  
 
 ### 🏠 3D Modeler (BIM) | *BIM Envision*  
 - BIM modeling using **Revit**, **AutoCAD**, and **Navisworks**  
