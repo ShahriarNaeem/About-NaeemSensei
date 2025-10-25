@@ -1,4 +1,6 @@
 # About-NaeemSensei
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ShahriarNaeem.ShahriarNaeem" alt="visitor badge"/>
+
 <!-- Profile Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:003399&height=200&section=header&text=Md%20Shahriar%20Rahman%20Naeem%20Patwary&fontSize=30&fontColor=ffffff&animation=fadeIn" />
