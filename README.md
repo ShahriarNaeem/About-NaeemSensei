@@ -39,6 +39,15 @@
 
 ---
 
+## 🌱 Current Focus  
+
+- Designing **data-driven frameworks** for sustainable transport and infrastructure planning.  
+- Applying **AI and satellite data** to evaluate **air quality**, **emissions**, **climate impacts**, and **hazards affecting urban livability and the environment**.  
+- Developing **predictive models** (Python, Scikit-Learn, XGBoost) to assess how urban growth affects **carbon emissions** and **urban heat islands**.  
+- Advancing **geospatial analytics** to support **climate-adaptive policies** and **resilient infrastructure design**.  
+
+---
+
 ## 🎓 Education  
 🎓 **B.Sc. in Civil Engineering** – Ahsanullah University of Science & Technology  
 📘 *Thesis:* *Effects on Air Quality in Dhaka City during the COVID-19 Lockdown*  
@@ -47,6 +56,17 @@
 - Autodesk Certified Professional (AutoCAD)  
 - ETABS & SAFE Design (ESC Bangladesh)  
 - Excel Skills for Business (Coursera)  
+
+---
+
+## 📚 Publications  
+1. Mahmud, M. H., **Patwary, M. S. R. Naeem**, & Avash, R. (2024). *Effects on air quality in Dhaka City due to COVID-19 pandemic induced nationwide lockdown.* [*International Journal of Social Impact*, 9(3), 21–30.](https://doi.org/10.25215/2455/0903004)
+   
+2. Shadin, M. U., Mahmud, M. H., **Naeem Patwary, M. S. R.**, Jahan, S., Zishan, S. M. J. U., & Biswas, P. (2024). *Variations in gaseous pollutants and suspended particulate matter over the season in the Darussalam area.* [*International Journal of Research in Civil Engineering and Technology*, 5(2), 31–40.](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
+
+3. **Patwary, M. S. R. Naeem**, Mahmud, M. H., Zishan, S. M. J. U., & Alam, S. U. (2024). *The impact of MRT Line-6 construction work on the environment, road users, and traffic during the construction period.* [*International Journal of Social Impact*, 9(4), 24–40.](https://doi.org/10.25215/2455/0904002)
+
+4. Shorif-Ul-Alam, Jahan, S., **Naeem Patwary, M. S. R.**, Mahmud, M. H., Ahmed, M. J., & Das, U. (2025). *Household: WASH roles and responsibilities for women, adolescents (girls and boys), aged and informal male workers at Pora Bari slum in Kallaynpur, Dhaka.* [*International Journal of Research in Civil Engineering and Technology*, 6(1), 23–34.](https://doi.org/10.22271/27078388.2025.v6.i1a.36)
 
 ---
 
@@ -137,17 +157,6 @@
 
 ---
 
-## 📚 Publications  
-1. Mahmud, M. H., **Patwary, M. S. R. Naeem**, & Avash, R. (2024). *Effects on air quality in Dhaka City due to COVID-19 pandemic induced nationwide lockdown.* [*International Journal of Social Impact*, 9(3), 21–30.](https://doi.org/10.25215/2455/0903004)
-   
-2. Shadin, M. U., Mahmud, M. H., **Naeem Patwary, M. S. R.**, Jahan, S., Zishan, S. M. J. U., & Biswas, P. (2024). *Variations in gaseous pollutants and suspended particulate matter over the season in the Darussalam area.* [*International Journal of Research in Civil Engineering and Technology*, 5(2), 31–40.](https://doi.org/10.22271/27078264.2024.v5.i2a.68)
-
-3. **Patwary, M. S. R. Naeem**, Mahmud, M. H., Zishan, S. M. J. U., & Alam, S. U. (2024). *The impact of MRT Line-6 construction work on the environment, road users, and traffic during the construction period.* [*International Journal of Social Impact*, 9(4), 24–40.](https://doi.org/10.25215/2455/0904002)
-
-4. Shorif-Ul-Alam, Jahan, S., **Naeem Patwary, M. S. R.**, Mahmud, M. H., Ahmed, M. J., & Das, U. (2025). *Household: WASH roles and responsibilities for women, adolescents (girls and boys), aged and informal male workers at Pora Bari slum in Kallaynpur, Dhaka.* [*International Journal of Research in Civil Engineering and Technology*, 6(1), 23–34.](https://doi.org/10.22271/27078388.2025.v6.i1a.36)
-
----
-
 ## 🧭 My Portfolio
 
 Here are some of my selected projects and professional works — reflecting my multidisciplinary experience across **Geospatial Analysis**, **Machine Learning**, **BIM Technology**, and **Structural Engineering**.
@@ -161,13 +170,6 @@ Here are some of my selected projects and professional works — reflecting my m
 | 🏛️ **Architectural & Structural Drafting** | Created precise **architectural and structural drawings** using **Revit**, **AutoCAD**, **Tekla**, **SketchUp**, and **Lumion** for visualisation and presentation purposes. | [Tekla](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Tekla), [SletchUp & Lumion](https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Sketchup%20%26%20Lumion/7-9SR) |
 
 🔗 **See all my projects here:** [Portfolio Repository →](https://github.com/ShahriarNaeem/My-Portfolio)
-
----
-
-## 🌱 Current Focus  
-- Building AI-based models for **transportation network & cost forecasting**  
-- Exploring **geospatial data science** for sustainable development  
-- Transitioning into **Project Management + Data Analytics hybrid expertise**
 
 ---
 
