@@ -2,20 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
 
-<div class="layout">
-  {% include sidebar.html %}
-
-  <main class="content">
-    {{ content }}
-  </main>
+<div class="container">
+  {{ content }}
 </div>
 
 </body>
 </html>
+
 
