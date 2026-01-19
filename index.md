@@ -16,6 +16,11 @@ title: Home
 <a href="https://github.com/ShahriarNaeem">GitHub</a>
 </p>
 
-I am a **civil engineer** working at the intersection of **infrastructure engineering, environmental systems, geospatial analytics, and AI-driven research**, currently engaged in **Bangladesh’s first Metro Rail Project (DMRT Line-6)**.
+# Welcome
+
+I am a **Civil Engineer** with professional experience in large-scale transportation infrastructure and a strong research interest in **environmental systems, geospatial analytics, and AI-driven urban sustainability**.
+
+Currently involved in **Bangladesh’s first Metro Rail Project (DMRT Line-6)**, I aim to pursue **MSc/PhD research** focused on climate-resilient and data-driven infrastructure systems.
 
 > *“We won’t have a society if we destroy the environment.”* — Margaret Mead
+
