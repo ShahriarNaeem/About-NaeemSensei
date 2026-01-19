@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-{% include nav.html %}
+<div class="layout">
+  {% include sidebar.html %}
 
-<main class="container">
-  {{ content }}
-</main>
-
-<footer>
-  © {{ site.title }} · Built with GitHub Pages
-</footer>
+  <main class="content">
+    {{ content }}
+  </main>
+</div>
 
 </body>
 </html>
+
