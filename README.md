@@ -1,5 +1,3 @@
-<h1 align="center">👋 Hi there, and welcome to my GitHub space!</h1>
-<p align="center">Here’s a bit about me and what I love to build 🚀</p>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ShahriarNaeem.ShahriarNaeem" alt="visitor badge"/>
 
 <!-- Profile Banner -->
