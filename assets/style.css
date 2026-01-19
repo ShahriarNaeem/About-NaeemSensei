@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+nav {
+  background: #020617;
+  padding: 14px 24px;
+}
+
+nav a {
+  color: #e5e7eb;
+  margin-right: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+  padding: 40px 24px;
+}
+
+h1, h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: #94a3b8;
+}
