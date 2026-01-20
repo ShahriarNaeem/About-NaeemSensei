@@ -17,10 +17,21 @@
 /* Sidebar */
 .sidebar {
   width: 240px;
-  min-height: 100vh;
+  height: 100vh;              /* FIX */
   background: #020617;
   position: fixed;
+  top: 0;
+  left: 0;
   padding: 20px;
+  overflow-y: auto;           /* FIX */
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 6px;
 }
 
 .nav-title {
@@ -56,10 +67,8 @@
 
 /* Section divider */
 .section-divider {
-  height: 1px;
-  max-width: 700px;
-  margin: 40px auto;
-  background: linear-gradient(to right, transparent, #cbd5e1, transparent);
+  margin: 20px auto;    /* was ~40 */
+  max-width: 600px;
 }
 
 /* Inline back-to-top */
@@ -131,9 +140,38 @@ body {
 }
 
 .section {
-  padding: 60px;
+  padding: 40px 20px;   /* was likely 60+ */
   max-width: 900px;
   margin: auto;
+}
+
+.section-header {
+  background: linear-gradient(90deg, #020617, #0f172a);
+  color: #e5e7eb;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(90deg, #020617, #0f172a);
+  color: #e5e7eb;
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+body.dark .section-header {
+  background: linear-gradient(90deg, #020617, #0f172a);
 }
 
 .pub-grid {
@@ -170,11 +208,19 @@ body.dark {
   color: #e5e7eb;
 }
 
-body.dark .tiles a,
-body.dark .pub-card,
-body.dark .panel {
+body.dark .content {
   background: #020617;
-  border: 1px solid #1e293b;
+}
+
+body.dark .section {
+  color: #e5e7eb;
+}
+
+body.dark .project-card,
+body.dark .pub-card,
+body.dark .toolbox-block {
+  background: #0f172a;
+  color: #e5e7eb;
 }
 
 #darkToggle {
@@ -406,7 +452,14 @@ body.dark .top-quote span {
 }
 
 .top-quote {
-  animation: fadeIn 1.2s ease-in-out;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
+}
+
+.top-quote.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @keyframes fadeIn {
