@@ -423,13 +423,19 @@ body.dark .toolbox-block h4 {
 }
 
 .top-quote {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #020617;
+  color: #e5e7eb;
   text-align: center;
-  font-style: italic;
-  font-size: 15px;
   padding: 14px 20px;
-  background: #f1f5f9;
-  color: #334155;
-  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+body.dark .top-quote {
+  background: #020617;
+  color: #e5e7eb;
 }
 
 .top-quote span {
@@ -490,4 +496,12 @@ body.dark .bottom-quote {
 .bottom-quote {
   animation: fadeIn 1.2s ease-in-out;
 }
+
+footer {
+  text-align: center;          /* CENTER TEXT */
+  padding: 30px 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+
 
