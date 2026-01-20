@@ -23,3 +23,13 @@ const observer = new IntersectionObserver(entries => {
 });
 
 reveals.forEach(r => observer.observe(r));
+const btn = document.getElementById("goTopBtn");
+
+window.addEventListener("scroll", () => {
+  btn.style.display = window.scrollY > 400 ? "block" : "none";
+});
+
+btn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
