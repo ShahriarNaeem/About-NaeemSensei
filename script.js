@@ -35,8 +35,6 @@ btn.addEventListener("click", () => {
 
 const topQuote = document.querySelector(".top-quote");
 
-document.body.classList.toggle("dark");
-
 window.addEventListener("scroll", () => {
   if (window.scrollY > 120) {
     topQuote.classList.add("show");
@@ -44,3 +42,4 @@ window.addEventListener("scroll", () => {
     topQuote.classList.remove("show");
   }
 });
+
