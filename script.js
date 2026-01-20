@@ -33,3 +33,14 @@ btn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+const topQuote = document.querySelector(".top-quote");
+
+document.body.classList.toggle("dark");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 120) {
+    topQuote.classList.add("show");
+  } else {
+    topQuote.classList.remove("show");
+  }
+});
