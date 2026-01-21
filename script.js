@@ -1,50 +1,49 @@
-// Accordion
-document.querySelectorAll(".accordion").forEach(btn => {
-  btn.onclick = () => {
-    btn.nextElementSibling.style.display =
-      btn.nextElementSibling.style.display === "block" ? "none" : "block";
-  };
-});
+// =================== TO TOP BUTTON ===================
+const goTopBtn = document.getElementById("goTopBtn");
 
-// Dark Mode
-document.getElementById("darkToggle").onclick = () => {
-  document.body.classList.toggle("dark");
+window.onscroll = function() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    goTopBtn.style.display = "block";
+  } else {
+    goTopBtn.style.display = "none";
+  }
 };
 
-// Scroll Reveal
-const reveals = document.querySelectorAll(".reveal");
+goTopBtn.addEventListener("click", () => {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("active");
+// =================== DARK MODE TOGGLE ===================
+const darkToggle = document.getElementById("darkToggle");
+darkToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+// =================== DROPDOWN MENUS ===================
+const dropdowns = document.querySelectorAll(".dropdown-btn");
+dropdowns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+    const container = btn.nextElementSibling;
+    if(container.style.display === "block"){
+      container.style.display = "none";
+    } else {
+      container.style.display = "block";
     }
   });
 });
 
-reveals.forEach(r => observer.observe(r));
-const btn = document.getElementById("goTopBtn");
+// =================== SECTION REVEAL ON SCROLL ===================
+const reveals = document.querySelectorAll(".reveal");
 
 window.addEventListener("scroll", () => {
-  btn.style.display = window.scrollY > 400 ? "block" : "none";
+  const windowHeight = window.innerHeight;
+  reveals.forEach((el) => {
+    const elementTop = el.getBoundingClientRect().top;
+    if(elementTop < windowHeight - 50){
+      el.classList.add("active");
+    } else {
+      el.classList.remove("active");
+    }
+  });
 });
-
-btn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
-
-const topQuote = document.querySelector(".top-quote");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 120) {
-    topQuote.classList.add("show");
-  } else {
-    topQuote.classList.remove("show");
-  }
-});
-
-const darkToggle = document.getElementById('darkToggle');
-darkToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-});
-
