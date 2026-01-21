@@ -1,4 +1,6 @@
-// =================== TO TOP BUTTON ===================
+// ------------------------------
+// Smooth Scroll & Back to Top
+// ------------------------------
 const goTopBtn = document.getElementById("goTopBtn");
 
 window.onscroll = function() {
@@ -10,40 +12,29 @@ window.onscroll = function() {
 };
 
 goTopBtn.addEventListener("click", () => {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// =================== DARK MODE TOGGLE ===================
+// ------------------------------
+// Accordion for Research Statement
+// ------------------------------
+const accordions = document.querySelectorAll(".accordion");
+accordions.forEach(acc => {
+  acc.addEventListener("click", function() {
+    this.classList.toggle("active");
+    const panel = this.nextElementSibling;
+    if(panel.style.display === "block"){
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+});
+
+// ------------------------------
+// Dark Mode Toggle
+// ------------------------------
 const darkToggle = document.getElementById("darkToggle");
 darkToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
-});
-
-// =================== DROPDOWN MENUS ===================
-const dropdowns = document.querySelectorAll(".dropdown-btn");
-dropdowns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    btn.classList.toggle("active");
-    const container = btn.nextElementSibling;
-    if(container.style.display === "block"){
-      container.style.display = "none";
-    } else {
-      container.style.display = "block";
-    }
-  });
-});
-
-// =================== SECTION REVEAL ON SCROLL ===================
-const reveals = document.querySelectorAll(".reveal");
-
-window.addEventListener("scroll", () => {
-  const windowHeight = window.innerHeight;
-  reveals.forEach((el) => {
-    const elementTop = el.getBoundingClientRect().top;
-    if(elementTop < windowHeight - 50){
-      el.classList.add("active");
-    } else {
-      el.classList.remove("active");
-    }
-  });
 });
