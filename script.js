@@ -1,3 +1,5 @@
+
+``javascript name=script.js
 // Interactivity: mobile nav toggle, dropdown toggles, smooth scroll, active nav highlighting, accordion
 document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.getElementById('nav-toggle');
@@ -70,7 +72,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .map(a => a.getAttribute('href'))
     .filter(Boolean)
     .map(href => {
-      // normalize ids (some nav entries might link to #hobbies but section id is #hobbies-section)
       if (href === '#hobbies') return document.querySelector('#hobbies-section') || document.querySelector(href);
       return document.querySelector(href);
     })
@@ -84,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
           const id = entry.target.id;
           navLinks.forEach(link => {
             const href = link.getAttribute('href');
-            // treat special hobbies link -> hobbies-section
             if ((href === '#hobbies' && id === 'hobbies-section') || href === `#${id}`) {
               link.classList.add('active');
             } else {
@@ -111,6 +111,41 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+
+  // Contact form handler (mailto fallback)
+  const form = document.getElementById('contact-form');
+  const statusEl = document.getElementById('form-status');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(form);
+      const first = (data.get('first_name') || '').toString().trim();
+      const last = (data.get('last_name') || '').toString().trim();
+      const email = (data.get('email') || '').toString().trim();
+      const message = (data.get('message') || '').toString().trim();
+
+      if (!email) {
+        statusEl.textContent = 'Please provide a valid email.';
+        return;
+      }
+
+      // Construct mailto fallback
+      const to = 'srnpatwary7991.srnaeem@gmail.com';
+      const subject = encodeURIComponent(`Website contact from ${first} ${last}`.trim());
+      const bodyLines = [];
+      if (first || last) bodyLines.push(`Name: ${first} ${last}`.trim());
+      bodyLines.push(`Email: ${email}`);
+      if (message) bodyLines.push('', 'Message:', message);
+      const body = encodeURIComponent(bodyLines.join('\n'));
+      const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
+
+      // open default mail client
+      window.location.href = mailto;
+
+      // Feedback for users without mail client (still shows status)
+      statusEl.textContent = 'Opening your mail client... If nothing opens, send an email to srnpatwary7991.srnaeem@gmail.com';
+    });
+  }
 
   // Close mobile nav on Escape
   document.addEventListener('keydown', (e) => {
