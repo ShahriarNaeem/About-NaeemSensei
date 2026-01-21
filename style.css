@@ -1,63 +1,58 @@
-/* ========== GENERAL RESET & BASE ========== */
+/* ------------------------------
+  General Reset & Fonts
+------------------------------ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #fdfdfd;
-  color: #1a1a1a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  color: #333;
+  background-color: #fdfdfd;
 }
 
-a {
-  text-decoration: none;
-  color: #1a73e8;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #0b4fbd;
-}
-
-h1, h2, h3, h4, h5 {
-  font-weight: 600;
-}
-
-.section-divider {
-  height: 2px;
-  background: #e0e0e0;
-  margin: 50px 0;
-}
-
-/* ========== TOP/BOTTOM QUOTES ========== */
+/* ------------------------------
+  Top Quote & Bottom Quote
+------------------------------ */
 .top-quote, .bottom-quote {
+  background-color: #e0f7fa;
   text-align: center;
+  padding: 15px 20px;
+  font-size: 1rem;
   font-style: italic;
-  background: #f0f4f8;
-  padding: 15px 10px;
-  margin-bottom: 20px;
+  color: #00796b;
 }
 
 .top-quote span {
   display: block;
+  font-size: 0.9rem;
   margin-top: 5px;
-  font-weight: 500;
+  color: #004d40;
 }
 
-/* ========== LAYOUT ========== */
+.bottom-quote {
+  font-weight: bold;
+}
+
+/* ------------------------------
+  Layout
+------------------------------ */
 .layout {
   display: flex;
   min-height: 100vh;
 }
 
-/* ========== SIDEBAR ========== */
+/* ------------------------------
+  Sidebar
+------------------------------ */
 .sidebar {
-  width: 250px;
-  background-color: #fff;
-  border-right: 1px solid #ddd;
+  width: 220px;
+  background-color: #004d40;
+  color: #fff;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -65,191 +60,226 @@ h1, h2, h3, h4, h5 {
   overflow-y: auto;
 }
 
-.nav-title {
-  margin-bottom: 15px;
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
-.tiles a {
-  display: block;
-  padding: 10px 5px;
-  margin-bottom: 5px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.tiles a:hover {
-  background-color: #f0f4f8;
-}
-
-/* DROPDOWN MENU */
-.dropdown-btn {
-  cursor: pointer;
-  padding: 10px 5px;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
+.sidebar .nav-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
   font-weight: 600;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.dropdown-container {
+.sidebar nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.sidebar nav a:hover {
+  background-color: #00796b;
+}
+
+.sidebar nav .dropdown {
   display: none;
-  padding-left: 10px;
-  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
-.dropdown-container a {
-  padding: 8px 5px;
+.sidebar nav .has-dropdown:hover .dropdown {
   display: block;
 }
 
-/* ========== MAIN CONTENT ========== */
+/* ------------------------------
+  Main Content
+------------------------------ */
 .content {
   flex: 1;
-  padding: 30px;
+  padding: 25px 40px;
 }
 
-/* HERO SECTION */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-divider {
+  height: 2px;
+  background-color: #00796b;
+  margin: 40px 0;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #00796b;
+  font-weight: 600;
+}
+
+/* ------------------------------
+  Hero / Profile Section
+------------------------------ */
 .hero {
   text-align: center;
   margin-bottom: 40px;
 }
 
 .hero img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00796b;
   margin-bottom: 15px;
 }
 
 .hero h1 {
   font-size: 2rem;
-  margin-bottom: 8px;
+  color: #004d40;
+  margin-bottom: 5px;
 }
 
 .hero p {
   font-size: 1.1rem;
   margin-bottom: 15px;
+  color: #00695c;
 }
 
 .cv-btn {
-  display: inline-block;
-  background-color: #1a73e8;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: 0.3s;
+  text-decoration: none;
+  background-color: #00796b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s;
 }
 
 .cv-btn:hover {
-  background-color: #0b4fbd;
+  background-color: #004d40;
 }
 
-/* ========== SECTIONS ========== */
-.section {
-  margin-bottom: 50px;
-}
-
-.section-header {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-/* ========== LISTS ========== */
-.focus-list li, .exp-item ul li, .vol-item ul li {
-  margin-bottom: 6px;
-}
-
-/* ========== CARDS & GRIDS ========== */
-.portfolio-grid, .pub-grid, .hobby-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.project-card, .pub-card, .hobby-card, .toolbox-block, .cert-item, .exp-item, .vol-item {
-  background: #fff;
-  border-radius: 8px;
+/* ------------------------------
+  Cards
+------------------------------ */
+.exp-item, .cert-item, .vol-item, .project-card, .pub-card, .toolbox-block, .hobby-card {
+  background-color: #e0f2f1;
   padding: 15px 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s;
 }
 
-.project-card h4, .pub-card h4, .toolbox-block h4 {
+.exp-item:hover, .cert-item:hover, .vol-item:hover, .project-card:hover, .pub-card:hover, .toolbox-block:hover, .hobby-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ------------------------------
+  Lists
+------------------------------ */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.focus-list li {
   margin-bottom: 8px;
 }
 
-.pub-card a, .project-card a {
-  display: inline-block;
-  margin-top: 8px;
-  font-weight: 600;
-  color: #1a73e8;
+/* ------------------------------
+  Accordion (Research Statement)
+------------------------------ */
+.accordion {
+  background-color: #00796b;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
 }
 
-/* ========== TO TOP BUTTON ========== */
+.accordion.active, .accordion:hover {
+  background-color: #004d40;
+}
+
+.panel {
+  padding: 0 15px;
+  display: none;
+  background-color: #b2dfdb;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* ------------------------------
+  Grids
+------------------------------ */
+.pub-grid, .portfolio-grid, .hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+
+/* ------------------------------
+  Back to Top Button
+------------------------------ */
 #goTopBtn {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  z-index: 99;
+  background-color: #00796b;
+  color: #fff;
   border: none;
-  outline: none;
-  background-color: #1a73e8;
-  color: white;
-  cursor: pointer;
-  padding: 10px 15px;
+  padding: 10px 14px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 1.2rem;
+  cursor: pointer;
   display: none;
+  z-index: 100;
 }
 
 #goTopBtn:hover {
-  background-color: #0b4fbd;
+  background-color: #004d40;
 }
 
-/* ========== DROPDOWN ICONS ========== */
-.dropdown-btn::after {
-  content: "▼";
-  font-size: 0.7rem;
-}
-
-/* ========== DARK MODE ========== */
+/* ------------------------------
+  Dark Mode
+------------------------------ */
 body.dark-mode {
-  background-color: #1a1a1a;
-  color: #f5f5f5;
+  background-color: #121212;
+  color: #ddd;
 }
 
 body.dark-mode .sidebar {
-  background-color: #111;
-  border-color: #333;
+  background-color: #1b1b1b;
 }
 
-body.dark-mode .tiles a {
-  color: #f5f5f5;
+body.dark-mode .sidebar nav a:hover {
+  background-color: #333;
 }
 
-body.dark-mode .tiles a:hover {
-  background-color: #222;
+body.dark-mode .exp-item,
+body.dark-mode .cert-item,
+body.dark-mode .vol-item,
+body.dark-mode .project-card,
+body.dark-mode .pub-card,
+body.dark-mode .toolbox-block,
+body.dark-mode .hobby-card,
+body.dark-mode .panel {
+  background-color: #1f1f1f;
+  color: #ddd;
 }
 
 body.dark-mode .cv-btn {
-  background-color: #4444ff;
+  background-color: #333;
 }
 
-body.dark-mode .project-card, 
-body.dark-mode .pub-card, 
-body.dark-mode .hobby-card, 
-body.dark-mode .toolbox-block, 
-body.dark-mode .cert-item, 
-body.dark-mode .exp-item, 
-body.dark-mode .vol-item {
-  background-color: #222;
-  color: #f5f5f5;
+body.dark-mode .cv-btn:hover {
+  background-color: #555;
 }
