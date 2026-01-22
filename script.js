@@ -1,4 +1,4 @@
-// Interactivity: mobile nav toggle, dropdown toggles, smooth scroll, active nav highlighting, accordion, contact form mailto fallback
+// Interactivity: mobile nav toggle, smooth scroll, active nav highlighting, accordion, contact form mailto fallback
 document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.getElementById('nav-toggle');
   const primaryNav = document.getElementById('primary-navigation');
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Smooth scroll for nav links (handles dropdown links too)
+  // Smooth scroll for nav links
   function smoothTo(hash) {
     const target = document.querySelector(hash);
     if (!target) return;
-    const headerOffset = 72;
+    const headerOffset = 76;
     const rect = target.getBoundingClientRect();
     const top = window.scrollY + rect.top - headerOffset;
     window.scrollTo({ top, behavior: 'smooth' });
@@ -27,44 +27,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-      // let normal behavior for external links (starts with http or mailto)
       const href = link.getAttribute('href');
       if (!href || href.startsWith('http') || href.startsWith('mailto:')) return;
-
       e.preventDefault();
       smoothTo(href);
-
       // close mobile nav if open
       if (primaryNav.classList.contains('open')) {
         primaryNav.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
       }
     });
-  });
-
-  // Dropdown accessible toggles
-  const dropdownButtons = Array.from(document.querySelectorAll('.dropbtn'));
-  dropdownButtons.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const parent = btn.closest('.dropdown');
-      const open = parent.classList.toggle('open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      const content = parent.querySelector('.dropdown-content');
-      if (content) content.setAttribute('aria-hidden', open ? 'false' : 'true');
-    });
-  });
-
-  // Close dropdowns when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('.dropdown') && !e.target.closest('.dropbtn')) {
-      document.querySelectorAll('.dropdown').forEach(d => {
-        d.classList.remove('open');
-        const b = d.querySelector('.dropbtn');
-        if (b) b.setAttribute('aria-expanded', 'false');
-        const c = d.querySelector('.dropdown-content');
-        if (c) c.setAttribute('aria-hidden', 'true');
-      });
-    }
   });
 
   // IntersectionObserver to highlight active nav item
@@ -94,21 +66,17 @@ document.addEventListener('DOMContentLoaded', function () {
     sections.forEach(s => observer.observe(s));
   }
 
-  // Accordion: Research statement
+  // Accordion toggle
   document.querySelectorAll('.accordion').forEach(btn => {
     btn.addEventListener('click', () => {
       btn.classList.toggle('active');
       const panel = btn.nextElementSibling;
       if (!panel) return;
-      if (panel.style.display === 'block') {
-        panel.style.display = 'none';
-      } else {
-        panel.style.display = 'block';
-      }
+      panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
     });
   });
 
-  // Contact form handler (mailto fallback)
+  // Contact form mailto fallback
   const form = document.getElementById('contact-form');
   const statusEl = document.getElementById('form-status');
   if (form) {
@@ -134,14 +102,13 @@ document.addEventListener('DOMContentLoaded', function () {
       const body = encodeURIComponent(bodyLines.join('\n'));
       const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
 
-      // open default mail client
+      // Open default mail client
       window.location.href = mailto;
-
       statusEl.textContent = 'Opening your mail client... If nothing opens, send an email to srnpatwary7991.srnaeem@gmail.com';
     });
   }
 
-  // Close menus on Escape
+  // Close mobile nav / menus on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       if (primaryNav.classList.contains('open')) {
@@ -150,8 +117,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       document.querySelectorAll('.dropdown.open').forEach(d => {
         d.classList.remove('open');
-        const b = d.querySelector('.dropbtn');
-        if (b) b.setAttribute('aria-expanded', 'false');
       });
     }
   });
