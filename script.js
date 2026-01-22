@@ -1,6 +1,4 @@
-
-``javascript name=script.js
-// Interactivity: mobile nav toggle, dropdown toggles, smooth scroll, active nav highlighting, accordion
+// Interactivity: mobile nav toggle, dropdown toggles, smooth scroll, active nav highlighting, accordion, contact form mailto fallback
 document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.getElementById('nav-toggle');
   const primaryNav = document.getElementById('primary-navigation');
@@ -17,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Smooth scroll for nav links
+  // Smooth scroll for nav links (handles dropdown links too)
   function smoothTo(hash) {
     const target = document.querySelector(hash);
     if (!target) return;
@@ -29,8 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-      e.preventDefault();
+      // let normal behavior for external links (starts with http or mailto)
       const href = link.getAttribute('href');
+      if (!href || href.startsWith('http') || href.startsWith('mailto:')) return;
+
+      e.preventDefault();
       smoothTo(href);
 
       // close mobile nav if open
@@ -47,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', (e) => {
       const parent = btn.closest('.dropdown');
       const open = parent.classList.toggle('open');
-      // set aria attributes
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       const content = parent.querySelector('.dropdown-content');
       if (content) content.setAttribute('aria-hidden', open ? 'false' : 'true');
@@ -68,28 +68,24 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // IntersectionObserver to highlight active nav item
-  const sectionAnchors = navLinks
+  const sectionIds = navLinks
     .map(a => a.getAttribute('href'))
-    .filter(Boolean)
-    .map(href => {
-      if (href === '#hobbies') return document.querySelector('#hobbies-section') || document.querySelector(href);
-      return document.querySelector(href);
-    })
+    .filter(h => h && h.startsWith('#'))
+    .map(h => h);
+
+  const sections = Array.from(new Set(sectionIds))
+    .map(id => document.querySelector(id))
     .filter(Boolean);
 
-  const sections = sectionAnchors;
   if (sections.length) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          const id = entry.target.id;
+          const id = `#${entry.target.id}`;
           navLinks.forEach(link => {
             const href = link.getAttribute('href');
-            if ((href === '#hobbies' && id === 'hobbies-section') || href === `#${id}`) {
-              link.classList.add('active');
-            } else {
-              link.classList.remove('active');
-            }
+            if (href === id) link.classList.add('active');
+            else link.classList.remove('active');
           });
         }
       });
@@ -129,7 +125,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      // Construct mailto fallback
       const to = 'srnpatwary7991.srnaeem@gmail.com';
       const subject = encodeURIComponent(`Website contact from ${first} ${last}`.trim());
       const bodyLines = [];
@@ -142,12 +137,11 @@ document.addEventListener('DOMContentLoaded', function () {
       // open default mail client
       window.location.href = mailto;
 
-      // Feedback for users without mail client (still shows status)
       statusEl.textContent = 'Opening your mail client... If nothing opens, send an email to srnpatwary7991.srnaeem@gmail.com';
     });
   }
 
-  // Close mobile nav on Escape
+  // Close menus on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       if (primaryNav.classList.contains('open')) {
