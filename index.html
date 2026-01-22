@@ -17,39 +17,16 @@
       <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
         <span class="hamburger"></span>
       </button>
-    
+
+      <!-- Top-level anchors (no dropdowns) to ensure each nav item links correctly -->
       <nav id="primary-navigation" class="primary-nav" role="navigation" aria-label="Primary">
         <ul class="nav-list">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#experience" class="nav-link">Experience</a></li>
-    
-          <li class="dropdown">
-            <button class="dropbtn" aria-expanded="false">Education & Certifications</button>
-            <div class="dropdown-content" role="menu" aria-hidden="true">
-              <a href="#education" class="nav-link">Education</a>
-              <a href="#certifications" class="nav-link">Certifications</a>
-              <a href="#volunteering" class="nav-link">Volunteering</a>
-            </div>
-          </li>
-    
-          <li class="dropdown">
-            <button class="dropbtn" aria-expanded="false">Focus</button>
-            <div class="dropdown-content" role="menu" aria-hidden="true">
-              <a href="#focus" class="nav-link">Focus</a>
-              <a href="#hobbies" class="nav-link">Hobbies</a>
-            </div>
-          </li>
-    
-          <li class="dropdown">
-            <button class="dropbtn" aria-expanded="false">Research & Publications</button>
-            <div class="dropdown-content" role="menu" aria-hidden="true">
-              <a href="#research" class="nav-link">Research & Publications</a>
-              <a href="#toolbox" class="nav-link">Toolbox</a>
-              <a href="#portfolio" class="nav-link">Portfolio</a>
-            </div>
-          </li>
-    
+          <li><a href="#education-certifications" class="nav-link">Education &amp; Certifications</a></li>
+          <li><a href="#focus" class="nav-link">Focus</a></li>
+          <li><a href="#research-publications" class="nav-link">Research &amp; Publications</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
@@ -58,11 +35,11 @@
 
   <main>
     <!-- HERO -->
-    <section id="home" class="hero section">
+    <section id="home" class="hero section alt">
       <div class="container hero-inner">
         <div class="hero-copy">
           <h1 class="hero-title">Md Shahriar Rahman Naeem</h1>
-          <p class="lead">Civil Engineer · Environmental & Transportation Systems Analyst</p>
+          <p class="lead">Civil Engineer · Environmental &amp; Transportation Systems Analyst</p>
           <p class="cta-row">
             <a class="btn primary" href="#portfolio">View Portfolio</a>
             <a class="btn ghost" href="#contact">Contact</a>
@@ -71,6 +48,7 @@
 
         <div class="hero-visual" aria-hidden="true">
           <div class="visual-card">
+            <!-- profile.jpg must be located at assets/images/profile.jpg relative to index.html -->
             <img src="assets/images/profile.jpg" alt="Md Shahriar Rahman Naeem — profile photo">
           </div>
         </div>
@@ -80,46 +58,26 @@
     <!-- ABOUT -->
     <section id="about" class="section">
       <div class="container">
-        <h2>About</h2>
+        <h2 class="section-heading">About</h2>
         <p>
           I am Civil Engineer dedicated to developing sustainable environmental strategies as per my research experience in
-          <strong>geospatial analysis such as urban emission & air pollution, conducting environmental impact assessments, and analyzing socio-environmental challenges for mega-scale transit projects.</strong>
+          <strong>geospatial analysis such as urban emission &amp; air pollution, conducting environmental impact assessments, and analyzing socio-environmental challenges for mega-scale transit projects.</strong>
           Also, my professional experience provided me with knowledge of <strong>transportation development in Bangladesh’s first Metro Rail Project (DMRT Line-6), integration of BIM technology and cost controlling in mega projects.</strong>
           I am proficient in geospatial data science (GIS, remote sensing), environmental monitoring, and predictive modeling using Python and machine learning. Based on this foundation, I aim to advance interdisciplinary research on urban settings and environmental complications integrating ML and AI, with a focus on bringing changes to the current policies, resilient and economic urban planning.
         </p>
       </div>
     </section>
 
-    <!-- EDUCATION -->
-    <section id="education" class="section alt">
-      <div class="container">
-        <h2>Education</h2>
-
-        <div class="card edu-card">
-          <h3>B.Sc. in Civil Engineering</h3>
-          <p class="edu-meta">
-            Ahsanullah University of Science & Technology (AUST) <br>
-            <em>2017 – 2022 · Dhaka, Bangladesh</em>
-          </p>
-
-          <p>
-            <strong>Thesis:</strong><br>
-            Effects on air quality in Dhaka city due to Covid-19 pandemic induced nationwide lockdown
-          </p>
-        </div>
-      </div>
-    </section>
-
     <!-- EXPERIENCE -->
     <section id="experience" class="section alt">
       <div class="container">
-        <h2>Professional Experience</h2>
+        <h2 class="section-heading">Experience</h2>
 
         <div class="card exp-card">
-          <h3>Quantity Survey & Cost Control Engineer</h3>
+          <h3>Quantity Survey &amp; Cost Control Engineer</h3>
           <p class="exp-meta">
             <strong>Italian-Thai Development Public Co. Ltd.</strong><br>
-            Dhaka Mass Rapid Transit Line-6 (CP-03 & CP-04)<br>
+            Dhaka Mass Rapid Transit Line-6 (CP-03 &amp; CP-04)<br>
             <em>July 2023 – Present</em>
           </p>
 
@@ -136,7 +94,7 @@
           </div>
 
           <div class="exp-block">
-            <h4>Cost, Procurement & Subcontractor Management</h4>
+            <h4>Cost, Procurement &amp; Subcontractor Management</h4>
             <ul>
               <li>Supported cash flow planning and IPC forecasting</li>
               <li>Prepared project budgets with detailed cost breakdowns</li>
@@ -148,7 +106,7 @@
           </div>
 
           <div class="exp-block">
-            <h4>Contract & Project Management</h4>
+            <h4>Contract &amp; Project Management</h4>
             <ul>
               <li>Reviewed tender documents, drawings, and specifications</li>
               <li>Identified variations, claims, and additional works</li>
@@ -163,7 +121,7 @@
         <div class="card exp-card">
           <h3>Structural Engineer</h3>
           <p class="exp-meta">
-            <strong>Innovate Engineering & Development (IED)</strong><br>
+            <strong>Innovate Engineering &amp; Development (IED)</strong><br>
             <em>August 2022 – June 2023</em>
           </p>
           <ul>
@@ -185,132 +143,66 @@
           </ul>
         </div>
 
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section alt">
+    <!-- EDUCATION & CERTIFICATIONS (combined for NAV link) -->
+    <section id="education-certifications" class="section">
       <div class="container">
-        <h2>Certifications</h2>
+        <h2 class="section-heading">Education &amp; Certifications</h2>
+
+        <div class="card edu-card">
+          <h3>B.Sc. in Civil Engineering</h3>
+          <p class="edu-meta">
+            Ahsanullah University of Science &amp; Technology (AUST) <br>
+            <em>2017 – 2022 · Dhaka, Bangladesh</em>
+          </p>
+          <p><strong>Thesis:</strong><br>Effects on air quality in Dhaka city due to Covid-19 pandemic induced nationwide lockdown</p>
+        </div>
 
         <div class="cert-grid">
           <div class="card cert-card">
-            <h4>Key Concepts of Project Management & Their Application in Bangladesh</h4>
-            <p class="cert-meta">
-              The Institution of Engineers, Bangladesh<br>
-              <em>18 Apr 2025 – 03 May 2025</em>
-            </p>
+            <h4>Key Concepts of Project Management &amp; Their Application in Bangladesh</h4>
+            <p class="cert-meta">The Institution of Engineers, Bangladesh · <em>18 Apr 2025 – 03 May 2025</em></p>
           </div>
-
           <div class="card cert-card">
-            <h4>Computer Aided Analysis and Design of Buildings & Foundation (ETABS & SAFE)</h4>
-            <p class="cert-meta">
-              Engineering Staff College of Bangladesh<br>
-              <em>06 Jan 2023 – 17 Feb 2023</em>
-            </p>
+            <h4>Computer Aided Analysis and Design of Buildings &amp; Foundation (ETABS &amp; SAFE)</h4>
+            <p class="cert-meta">Engineering Staff College of Bangladesh · <em>06 Jan 2023 – 17 Feb 2023</em></p>
           </div>
-
           <div class="card cert-card">
             <h4>Autodesk Certified Professional: AutoCAD for Design and Drafting</h4>
-            <p class="cert-meta">
-              Coursera<br>
-              <em>04 Jun 2020 – 04 Jul 2020</em>
-            </p>
+            <p class="cert-meta">Coursera · <em>04 Jun 2020 – 04 Jul 2020</em></p>
           </div>
-
           <div class="card cert-card">
             <h4>Conversational English Skills</h4>
-            <p class="cert-meta">
-              Coursera<br>
-              <em>19 Jun 2020 – 19 Jul 2020</em>
-            </p>
+            <p class="cert-meta">Coursera · <em>19 Jun 2020 – 19 Jul 2020</em></p>
           </div>
-
           <div class="card cert-card">
             <h4>Excel Skills for Business: Essentials</h4>
-            <p class="cert-meta">
-              Coursera<br>
-              <em>25 May 2020 – 25 Jun 2020</em>
-            </p>
+            <p class="cert-meta">Coursera · <em>25 May 2020 – 25 Jun 2020</em></p>
           </div>
-
           <div class="card cert-card">
             <h4>Excel Skills for Business: Intermediate I</h4>
-            <p class="cert-meta">
-              Coursera<br>
-              <em>28 Aug 2020 – 28 Sep 2020</em>
-            </p>
+            <p class="cert-meta">Coursera · <em>28 Aug 2020 – 28 Sep 2020</em></p>
           </div>
         </div>
 
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
-      </div>
-    </section>
-
-    <!-- VOLUNTEERING -->
-    <section id="volunteering" class="section alt">
-      <div class="container">
-        <h2>Volunteering & Extracurricular Activities</h2>
-
-        <div class="vol-grid">
-          <div class="card vol-card">
-            <h4>Member — AUST Innovation & Design Club</h4>
-            <p class="vol-meta">
-              Ahsanullah University of Science and Technology<br>
-              <em>Dec 2017 – Dec 2021</em>
-            </p>
-            <ul>
-              <li>Contributed to design competitions, workshops, and team projects</li>
-              <li>Supported event organization and represented the club</li>
-            </ul>
-          </div>
-
-          <div class="card vol-card">
-            <h4>Organizer — Civil Job Fiesta 2018</h4>
-            <p class="vol-meta">
-              Ahsanullah University of Science and Technology<br>
-              <em>Oct 2018</em>
-            </p>
-            <ul>
-              <li>Coordinated with companies and recruiters</li>
-              <li>Managed registrations, logistics, and event promotion</li>
-            </ul>
-          </div>
-
-          <div class="card vol-card">
-            <h4>Volunteer — 2nd AUSTDC National Debate Festival 2018</h4>
-            <p class="vol-meta">
-              Ahsanullah University of Science and Technology<br>
-              <em>Feb 2018</em>
-            </p>
-            <ul>
-              <li>Assisted event coordination and participant communication</li>
-              <li>Developed teamwork and organizational skills</li>
-            </ul>
-          </div>
-
-          <div class="card vol-card">
-            <h4>Member — Bangladesh Scouts</h4>
-            <p class="vol-meta">
-              Rangamati, Chittagong, Bangladesh<br>
-              <em>Jan 2010 – Feb 2014</em>
-            </p>
-            <ul>
-              <li>Participated in community service, tree planting, and cleanliness drives</li>
-              <li>Engaged in cultural, health, and charity initiatives</li>
-            </ul>
-          </div>
+        <div class="card vol-card">
+          <h3>Volunteering &amp; Extracurricular Activities</h3>
+          <ul>
+            <li>Member — AUST Innovation &amp; Design Club (Dec 2017 – Dec 2021)</li>
+            <li>Organizer — Civil Job Fiesta 2018 (Oct 2018)</li>
+            <li>Volunteer — 2nd AUSTDC National Debate Festival 2018 (Feb 2018)</li>
+            <li>Member — Bangladesh Scouts (Jan 2010 – Feb 2014)</li>
+          </ul>
         </div>
-
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
       </div>
     </section>
 
-    <!-- CURRENT FOCUS -->
-    <section id="focus" class="section">
+    <!-- FOCUS (combined Focus + Hobbies) -->
+    <section id="focus" class="section alt">
       <div class="container">
-        <h2>Current Focus</h2>
+        <h2 class="section-heading">Focus</h2>
 
         <div class="focus-grid">
           <div class="card focus-card">
@@ -323,23 +215,13 @@
             <p>Applying data analytics, visualization, and forecasting tools to engineering and policy problems.</p>
           </div>
 
-          <div class="card focus-card" id="hobbies">
-            <h4>🎯 Hobbies & Interests</h4>
+          <div class="card focus-card">
+            <h4>🎯 Hobbies &amp; Interests</h4>
             <p>Academic writing, urban research, GIS mapping, sustainability reading, and technical blogging.</p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- HOBBIES -->
-    <section id="hobbies" class="section alt">
-      <div class="container">
-        <h2>Hobbies & Interests</h2>
-        <p class="section-intro">
-          Beyond my academic and professional pursuits, I actively engage in activities that support creativity, critical thinking, and personal well-being.
-        </p>
-
-        <div class="hobby-grid">
+        <div class="hobby-grid" style="margin-top:18px;">
           <div class="card hobby-card">
             <span class="icon">📚</span>
             <h4>Reading</h4>
@@ -354,7 +236,7 @@
 
           <div class="card hobby-card">
             <span class="icon">🤖</span>
-            <h4>AI & Emerging Tech</h4>
+            <h4>AI &amp; Emerging Tech</h4>
             <p>Exploring artificial intelligence and future technologies</p>
           </div>
 
@@ -366,7 +248,7 @@
 
           <div class="card hobby-card">
             <span class="icon">🎵</span>
-            <h4>Music & Puzzles</h4>
+            <h4>Music &amp; Puzzles</h4>
             <p>Music appreciation and solving Rubik’s Cube</p>
           </div>
 
@@ -376,15 +258,13 @@
             <p>Critical thinking, ethics, and reflective analysis</p>
           </div>
         </div>
-
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
       </div>
     </section>
 
-    <!-- RESEARCH -->
-    <section id="research" class="section alt">
+    <!-- RESEARCH & PUBLICATIONS (combined Research + Toolbox) -->
+    <section id="research-publications" class="section">
       <div class="container">
-        <h2>Research & Publications</h2>
+        <h2 class="section-heading">Research &amp; Publications</h2>
 
         <button class="accordion">🎓 Research Statement</button>
         <div class="panel">
@@ -423,97 +303,68 @@
           </div>
         </div>
 
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
-      </div>
-    </section>
-
-    <!-- TOOLBOX -->
-    <section id="toolbox" class="section">
-      <div class="container">
-        <h2>Toolbox</h2>
-        <p>Tools & technologies I regularly use:</p>
-
-        <div class="cert-grid">
+        <h3 style="margin-top:22px; text-align:center;">Toolbox</h3>
+        <div class="cert-grid" style="margin-top:12px;">
           <div class="card">
-            <h4>Geospatial & GIS</h4>
+            <h4>Geospatial &amp; GIS</h4>
             <p>Google Earth Engine, ArcGIS Pro, QGIS, Sentinel data</p>
           </div>
           <div class="card">
-            <h4>Programming & Data</h4>
+            <h4>Programming &amp; Data</h4>
             <p>Python (pandas, numpy, scikit-learn), Jupyter, Git</p>
           </div>
           <div class="card">
-            <h4>BIM & Structural</h4>
+            <h4>BIM &amp; Structural</h4>
             <p>Revit, Tekla, ETABS, SAFE, Navisworks</p>
           </div>
           <div class="card">
-            <h4>Visualization & Reporting</h4>
+            <h4>Visualization &amp; Reporting</h4>
             <p>Matplotlib, Seaborn, Power BI, GIS mapping</p>
           </div>
         </div>
-
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
       </div>
     </section>
 
     <!-- PORTFOLIO -->
-    <section id="portfolio" class="section">
+    <section id="portfolio" class="section alt">
       <div class="container">
-        <div class="section-header">🧪 Portfolio</div>
-        <p>
-          Selected academic, analytical, and engineering projects demonstrating applied skills in data science, geospatial analysis, transportation systems, and BIM-based solutions.
-        </p>
+        <h2 class="section-heading">Portfolio</h2>
 
         <div class="portfolio-grid">
           <div class="card project-card">
             <h4>🛰️ Geospatial NO₂ Analysis</h4>
-            <p>
-              Comprehensive study of air quality and atmospheric NO₂ concentration using <strong>Google Earth Engine</strong>, <strong>Sentinel-5 satellite data</strong>, ground-based NO₂ observations, <strong>ArcGIS Pro</strong>, and <strong>Python automation</strong>.
-            </p>
+            <p>Comprehensive study using Google Earth Engine, Sentinel-5 satellite data, ground-based NO₂ observations, ArcGIS Pro, and Python automation.</p>
             <a href="https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Geo-Spatial%20Analysis/Dhaka_NO2_Project" target="_blank" rel="noopener">View Project →</a>
           </div>
 
           <div class="card project-card">
-            <h4>🚦 Traffic & Accident Behaviour Modelling</h4>
-            <p>
-              Predictive modelling of traffic patterns and accident behaviour using <strong>Python</strong> and <strong>Machine Learning</strong> (Linear Regression, Random Forest, XGBoost), with a Flask-based prototype application.
-            </p>
+            <h4>🚦 Traffic &amp; Accident Behaviour Modelling</h4>
+            <p>Predictive modelling of traffic patterns and accident behaviour using Python and machine learning.</p>
             <a href="https://github.com/ShahriarNaeem/My-Portfolio/tree/main/Python%20%26%20ML" target="_blank" rel="noopener">View Project →</a>
           </div>
 
           <div class="card project-card">
             <h4>🏗️ BIM-Based Project Solutions</h4>
-            <p>
-              BIM-driven project delivery using <strong>Autodesk Revit</strong> for 3D coordination, quantity take-off, and collaborative construction planning.
-            </p>
+            <p>BIM-driven project delivery using Autodesk Revit for 3D coordination and quantity take-off.</p>
             <a href="https://github.com/ShahriarNaeem/My-Portfolio/tree/main/REVIT" target="_blank" rel="noopener">View Project →</a>
           </div>
 
           <div class="card project-card">
-            <h4>🧮 Structural Design & Analysis</h4>
-            <p>
-              Structural design and analysis of multi-storey buildings using <strong>ETABS</strong> and <strong>SAFE</strong>.
-            </p>
+            <h4>🧮 Structural Design &amp; Analysis</h4>
+            <p>Structural design and analysis of multi-storey buildings using ETABS and SAFE.</p>
             <a href="https://github.com/ShahriarNaeem/My-Portfolio/tree/main/ETABS" target="_blank" rel="noopener">ETABS</a> ·
             <a href="https://github.com/ShahriarNaeem/My-Portfolio/tree/main/SAFE" target="_blank" rel="noopener">SAFE</a>
           </div>
         </div>
-
-        <p style="margin-top:18px;">
-          🔗 <strong>See all projects:</strong>
-          <a href="https://github.com/ShahriarNaeem/My-Portfolio" target="_blank" rel="noopener">Portfolio Repository →</a>
-        </p>
-
-        <p class="to-top-inline"><a href="#home">↑ Back to top</a></p>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section contact-extended">
       <div class="container">
-        <h2 class="contact-title">Contact Me</h2>
+        <h2 class="section-heading">Contact Me</h2>
+
         <div class="contact-wrap">
-          <!-- left column: details with icons -->
           <div class="contact-details">
             <div class="contact-item">
               <span class="icon" aria-hidden="true">
@@ -528,7 +379,7 @@
                 <p>Agargaon, Dhaka,<br>Bangladesh</p>
               </div>
             </div>
-    
+
             <div class="contact-item">
               <span class="icon" aria-hidden="true">
                 <!-- globe -->
@@ -542,12 +393,11 @@
                 <p><a href="https://shahriarnaeem.github.io/About-NaeemSensei/" target="_blank" rel="noopener">shahriarnaeem.github.io/About-NaeemSensei</a></p>
               </div>
             </div>
-    
+
             <div class="contact-item">
               <span class="icon" aria-hidden="true">
                 <!-- envelope -->
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 4h16v16H4z" stroke="none"></path>
                   <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
                   <path d="M22 6l-10 7L2 6"></path>
                 </svg>
@@ -557,10 +407,10 @@
                 <p><a href="mailto:srnpatwary7991.srnaeem@gmail.com">srnpatwary7991.srnaeem@gmail.com</a></p>
               </div>
             </div>
-    
+
             <div class="contact-item social">
               <span class="icon" aria-hidden="true">
-                <!-- thumbs-up icon -->
+                <!-- social -->
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                   <path d="M14 9V5a3 3 0 0 0-3-3l-1 5H5v10h6l6 3V9z"></path>
                 </svg>
@@ -574,8 +424,7 @@
               </div>
             </div>
           </div>
-    
-          <!-- right column: contact form -->
+
           <div class="contact-form-wrap">
             <form id="contact-form" class="contact-form" autocomplete="on" novalidate>
               <div class="row grid-two">
@@ -588,17 +437,17 @@
                   <input type="text" name="last_name" placeholder="Last name">
                 </label>
               </div>
-    
+
               <label class="field">
                 <span class="label-text">Email <span class="required">*</span></span>
                 <input type="email" name="email" id="email" placeholder="your@email.com" required>
               </label>
-    
+
               <label class="field">
                 <span class="label-text">Message</span>
                 <textarea name="message" rows="6" placeholder="Write your message..."></textarea>
               </label>
-    
+
               <div class="form-actions">
                 <button type="submit" class="btn send-btn">Send</button>
               </div>
@@ -608,6 +457,7 @@
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
