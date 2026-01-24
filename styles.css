@@ -131,17 +131,19 @@ body.dark .theme-toggle .icon-sun{ display:none; }
 
 /* centered section heading style */
 .section-heading{
-  text-align:center;
-  margin:0 auto 28px;
-  display:inline-block;
-  font-size:1.6rem;
-  font-weight:700;
-  color:var(--accent);
-  padding:12px 22px;
-  border-radius:10px;
-  background:transparent;
-  position:relative;
-  letter-spacing:0.2px;
+  display: block;            /* make it a block so margin:auto centers it */
+  max-width: 720px;         /* limit width so the "pill" doesn't span entire page */
+  width: 100%;
+  margin: 0 auto 28px;      /* auto left/right margins center the block */
+  text-align: center;       /* center the text inside the block */
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 12px 22px;
+  border-radius: 10px;
+  background: transparent;
+  position: relative;
+  letter-spacing: 0.2px;
   box-shadow: 0 8px 20px rgba(15,23,36,0.04);
 }
 
