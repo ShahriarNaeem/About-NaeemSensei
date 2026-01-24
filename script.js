@@ -1,11 +1,19 @@
-// Interactivity: mobile nav toggle, smooth scroll, active nav highlighting, accordion, contact form mailto fallback
+// Interactivity: fixed header-aware smooth scroll, theme toggle (persisted), mobile nav toggle,
+// active nav highlighting, accordion, contact form mailto fallback
 document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.getElementById('nav-toggle');
   const primaryNav = document.getElementById('primary-navigation');
   const navLinks = Array.from(document.querySelectorAll('.nav-link'));
   const yearEl = document.getElementById('year');
+  const header = document.getElementById('site-header');
+  const themeToggle = document.getElementById('theme-toggle');
 
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Helper: current header height (accounts for fixed header)
+  function getHeaderHeight() {
+    return header ? header.offsetHeight : 72;
+  }
 
   // Mobile nav toggle
   if (navToggle) {
@@ -15,11 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Smooth scroll for nav links
+  // Smooth scroll for nav links (handles internal links)
   function smoothTo(hash) {
     const target = document.querySelector(hash);
     if (!target) return;
-    const headerOffset = 76;
+    const headerOffset = getHeaderHeight() + 8; // small gap
     const rect = target.getBoundingClientRect();
     const top = window.scrollY + rect.top - headerOffset;
     window.scrollTo({ top, behavior: 'smooth' });
@@ -31,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!href || href.startsWith('http') || href.startsWith('mailto:')) return;
       e.preventDefault();
       smoothTo(href);
+
       // close mobile nav if open
       if (primaryNav.classList.contains('open')) {
         primaryNav.classList.remove('open');
@@ -39,17 +48,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // IntersectionObserver to highlight active nav item
-  const sectionIds = navLinks
-    .map(a => a.getAttribute('href'))
-    .filter(h => h && h.startsWith('#'))
-    .map(h => h);
+  // IntersectionObserver to highlight active nav item (uses header offset)
+  function initObserver() {
+    const sectionIds = navLinks
+      .map(a => a.getAttribute('href'))
+      .filter(h => h && h.startsWith('#'))
+      .map(h => h);
 
-  const sections = Array.from(new Set(sectionIds))
-    .map(id => document.querySelector(id))
-    .filter(Boolean);
+    const sections = Array.from(new Set(sectionIds))
+      .map(id => document.querySelector(id))
+      .filter(Boolean);
 
-  if (sections.length) {
+    if (!sections.length) return;
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -61,10 +72,23 @@ document.addEventListener('DOMContentLoaded', function () {
           });
         }
       });
-    }, { root: null, rootMargin: '0px 0px -45% 0px', threshold: 0 });
+    }, {
+      root: null,
+      // ensure intersection accounts for header height: set bottom rootMargin negative to trigger earlier
+      rootMargin: `0px 0px -${Math.round(window.innerHeight * 0.45)}px 0px`,
+      threshold: 0
+    });
 
     sections.forEach(s => observer.observe(s));
   }
+  initObserver();
+
+  // Re-init observer on resize to account for layout changes
+  window.addEventListener('resize', () => {
+    // (simple approach: re-run observer init)
+    // For performance in a larger site you'd keep a reference and update; this is fine here.
+    initObserver();
+  });
 
   // Accordion toggle
   document.querySelectorAll('.accordion').forEach(btn => {
@@ -108,6 +132,38 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Theme toggle: prefers-color-scheme initial + persisted preference
+  function applyTheme(theme) {
+    if (theme === 'dark') document.body.classList.add('dark');
+    else document.body.classList.remove('dark');
+
+    if (themeToggle) {
+      const isDark = theme === 'dark';
+      themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+    }
+  }
+
+  function initTheme() {
+    const stored = localStorage.getItem('site-theme');
+    if (stored) {
+      applyTheme(stored);
+      return;
+    }
+    // default to system preference
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    applyTheme(prefersDark ? 'dark' : 'light');
+  }
+  initTheme();
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.body.classList.contains('dark');
+      const newTheme = isDark ? 'light' : 'dark';
+      applyTheme(newTheme);
+      localStorage.setItem('site-theme', newTheme);
+    });
+  }
+
   // Close mobile nav / menus on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
@@ -120,4 +176,15 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   });
+
+  // If user clicks outside mobile nav, close it
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#primary-navigation') && !e.target.closest('#nav-toggle')) {
+      if (primaryNav.classList.contains('open')) {
+        primaryNav.classList.remove('open');
+        if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+
 });
